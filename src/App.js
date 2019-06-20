@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Input from './components/Input/Input';
-import Card from './components/Card/Card';
+import {Card} from './components/Card/Card';
 
 class App extends React.Component {
   constructor() {

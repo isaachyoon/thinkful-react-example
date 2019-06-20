@@ -1,6 +1,16 @@
 import React from 'react';
 import './Card.css';
 
+function calculateAge(age) {
+  //take a number and return number plus 1
+  //if age is negative, 0
+  // const result = age + 1;
+  if (age < 0) {
+    return 0;
+  }
+  return age + 1;
+}
+
 function Card(props) {
   return (
     <div className="card">
@@ -15,4 +25,4 @@ Card.defaultProps = {
   age: 0
 }
 
-export default Card;
+export {Card, calculateAge};
